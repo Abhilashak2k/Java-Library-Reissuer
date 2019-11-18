@@ -52,8 +52,7 @@ public class Third  {
 	
 	public static void main ( String args [ ] ) throws net.minidev.json.parser.ParseException, JSONException, ParseException, org.json.simple.parser.ParseException
 	{
-		// checking if the file exists or not 
-		// If it is first time 
+		 
 		File f = new File("./data.json");
 		if(f.exists() == false && f.isDirectory()== false ) { 
 		    System.out.println("It's your first time...");
@@ -183,7 +182,7 @@ public class Third  {
 				}    
 			}
 			driver.close();
-			System.out.println( "THANK YOU"); 
+			//System.out.println( "THANK YOU"); 
 	}		
 	
 }
